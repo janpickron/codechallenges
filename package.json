@@ -1,0 +1,19 @@
+{
+  "name": "codechallenges",
+  "version": "1.0.0",
+  "description": "echo # codechallenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janpickron/codechallenges.git"
+  },
+  "author": "Janice Pickron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janpickron/codechallenges/issues"
+  },
+  "homepage": "https://github.com/janpickron/codechallenges#readme"
+}
