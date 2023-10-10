@@ -11,10 +11,9 @@ function reverseString(word) {
   // 1. receive the word
   // 2. convert the string into an array
   // 3. reverse the array 
-  // const array1 = ["apple", "pineapple", "grapes"];
+  // const array1 = ["apple", "hello", "grapes"];
   // const reverseArray = reverse(word);
   return word.split('').reverse().join('')
-  // console.log(reverseArray);
 }
 
  console.log(reverseString("apple"))
