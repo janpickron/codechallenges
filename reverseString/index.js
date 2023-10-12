@@ -12,13 +12,13 @@ function reverseString(word) {
   // 2. convert the string into an array or other method to reverse
   // 3. reverse the array  or other method to reverse
   // const array1 = ["apple", "hello", "grapes"];  (reverse words)
-  // const reverseArray = reverse(word); 
-  return word.split('').reverse().join('')
+  // const reverseArray = reverse(word);
+  return word.split("").reverse().join("");
 }
 
- console.log(reverseString("apple"))
- console.log(reverseString("grapes"))
- console.log(reverseString("hello"))
- console.log(reverseString("Greetings!"))
+console.log(reverseString("apple"));
+console.log(reverseString("grapes"));
+console.log(reverseString("hello"));
+console.log(reverseString("Greetings!"));
 
- module.exports = { reverseString }
+module.exports = { reverseString };
