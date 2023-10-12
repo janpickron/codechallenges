@@ -9,16 +9,16 @@
 //   palindrome("racecar") === true
 
 function palindrome(word) {
- let revWord = ""; // init variable for storing reverse string 
-    for (let i=word.length - 1; i>=0; i--){
-      revWord = revWord + word[i]
-    }
+  let revWord = ""; // init variable for storing reverse string
+  for (let i = word.length - 1; i >= 0; i--) {
+    revWord = revWord + word[i];
+  }
 
-   return (revWord === word);
+  return revWord === word;
 }
 
 console.log(palindrome("abba"));
-console.log(palindrome("abcdefg"))
+console.log(palindrome("abcdefg"));
 console.log(palindrome("racecar"));
 
-module.exports = { palindrome }
+module.exports = { palindrome };
